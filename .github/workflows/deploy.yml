@@ -6,18 +6,19 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write      # preciso de write para push
   pages: write
   id-token: write
 
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          submodules: recursive   # essencial para Hugo Modules
+          submodules: recursive
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
@@ -25,12 +26,12 @@ jobs:
           hugo-version: 'latest'
           extended: true
 
-      - name: Initialize + Update Hugo modules
+      - name: Initialize + Update Hugo Modules
         run: |
-          hugo mod init ${{ github.repository }} || true   # cria go.mod se não existir
-          hugo mod get -u                                  # baixa/atualiza o PaperMod
+          hugo mod init ${{ github.repository }} || true
+          hugo mod get -u
 
-      - name: Build
+      - name: Build site
         run: hugo --minify --baseURL "https://victormnalves.github.io/victor-alves-site/"
 
       - name: Deploy to GitHub Pages
