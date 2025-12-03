@@ -10,18 +10,24 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # Faz checkout do seu repositório e submodules (se houver)
       - name: Checkout
         uses: actions/checkout@v3
+        with:
+          submodules: recursive
 
+      # Instala a versão mais recente do Hugo
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: 'latest'
           extended: true
 
+      # Instala os módulos Hugo e faz build
       - name: Build
-        run: hugo --minify
+        run: hugo mod get && hugo --minify
 
+      # Publica a pasta 'public' no GitHub Pages
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:

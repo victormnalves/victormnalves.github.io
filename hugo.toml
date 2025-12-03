@@ -3,6 +3,10 @@ languageCode = "en-us"
 title = "Victor Alves"
 theme = "PaperMod"
 
+[module]
+  [[module.imports]]
+    path = "github.com/adityatelange/hugo-PaperMod"
+
 [pagination]
   pagerSize = 10
 
