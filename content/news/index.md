@@ -10,9 +10,9 @@ This page collects selected media appearances, interviews, public commentary, an
   Feature in Nexo Políticas Públicas summarizing the main findings from the literature on full-time schooling.  
   [Read the article](https://pp.nexojornal.com.br/perguntas-que-a-ciencia-ja-respondeu/2025/06/02/educacao-em-tempo-integral-em-6-pontos)
 
-  - **May 2025** – “Insper premia as melhores monografias de Ciências Econômicas de 2024”  
-  My undergraduate thesis received the award for best thesis in the Insper Economics program.  
-  [Read the news](https://www.insper.edu.br/pt/conteudos/economia-e-financas/insper-premia-as-melhores-monografias-de-ciencias-economicas-de-2024)
+- **May 2025** – “Insper premia as melhores monografias de Ciências Econômicas de 2024”  
+My undergraduate thesis received the award for best thesis in the Insper Economics program.  
+[Read the news](https://www.insper.edu.br/pt/conteudos/economia-e-financas/insper-premia-as-melhores-monografias-de-ciencias-economicas-de-2024)
 
 ### 2024
 

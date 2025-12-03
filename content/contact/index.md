@@ -11,6 +11,6 @@ You can reach me through any of the channels below:
 - **GitHub:** [github.com/victormnalves](https://github.com/victormnalves)  
 - **LinkedIn:** [linkedin.com/in/victormnalves](https://www.linkedin.com/in/victormnalves)  
 - **X:** [x.com/victormnalves](https://x.com/victormnalves)  
-- **Bluesky:** [bsky.app/profile/victormnalves](https://bsky.app/profile/victormnalves)
+- **Bluesky:** [bsky.app/profile/victormnalves](https://bsky.app/profile/victormnalves.bsky.social)
 
 Looking forward to hearing from you!
