@@ -1,12 +1,8 @@
 baseURL = "https://victormnalves.github.io/"
 languageCode = "en-us"
 title = "Victor Alves"
-theme = "github.com/adityatelange/hugo-PaperMod"
 
-[module]
-  proxy = "direct"
-  [[module.imports]]
-    path = "github.com/adityatelange/hugo-PaperMod"
+theme = "github.com/adityatelange/hugo-PaperMod"
 
 [pagination]
   pagerSize = 10

@@ -1,6 +1,4 @@
-# .github/workflows/deploy.yml
 name: Deploy Hugo to GitHub Pages
-
 on:
   push:
     branches: [ main ]
@@ -19,10 +17,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          submodules: true
+          submodules: recursive   # funciona melhor que "true" com PaperMod
           fetch-depth: 0
 
       - name: Setup Hugo
@@ -31,11 +29,10 @@ jobs:
           hugo-version: 'latest'
           extended: true
 
-      - name: Build with Hugo
-        run: |
-          hugo --gc --minify --baseURL "https://victormnalves.github.io/"
+      - name: Build site
+        run: hugo --gc --minify --baseURL "https://victormnalves.github.io/"
 
-      - name: Upload artifact
+      - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
