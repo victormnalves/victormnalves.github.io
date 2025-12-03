@@ -13,7 +13,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
         with:
-          submodules: recursive  # <- garante baixar submodules se houver
+          submodules: recursive
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
@@ -22,7 +22,7 @@ jobs:
           extended: true
 
       - name: Build
-        run: hugo mod get && hugo --minify   # <- garante baixar módulos antes de build
+        run: hugo mod get && hugo --minify
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
