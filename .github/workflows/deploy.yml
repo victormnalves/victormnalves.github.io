@@ -1,16 +1,24 @@
-name: Build Hugo site
+name: Deploy Hugo site to GitHub Pages
 
 on:
   push:
     branches: [ main ]
   workflow_dispatch:
 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          submodules: true               # importante pro PaperMod
+          fetch-depth: 0                  # importante pro hugo mod
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
@@ -18,10 +26,13 @@ jobs:
           hugo-version: 'latest'
           extended: true
 
-      - name: Initialize Hugo Modules
+      - name: Build
         run: |
-          hugo mod init ${{ github.repository }} || true
-          hugo mod get -u
+          hugo --minify --baseURL "https://victormnalves.github.io/"
 
-      - name: Build site
-        run: hugo --minify --baseURL "https://victormnalves.github.io/"
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          commit_message: "Deploy: ${{ github.event.head_commit.message }}"
