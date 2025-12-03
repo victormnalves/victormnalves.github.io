@@ -22,7 +22,7 @@ theme = "github.com/adityatelange/hugo-PaperMod"
     enabled = true
     title = "Victor Alves"
 subtitle = """
-Economist · Researcher · PhD Candidate at Insper\n
+Researcher in Economics · PhD Candidate at Insper\n
 Welcome to my academic page.
 """
     imageUrl = "images/profile.jpg"

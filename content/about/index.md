@@ -4,8 +4,8 @@ draft: false
 image: "images/profile.jpg"
 ---
 
-I am **Victor Alves**, an economist from Brazil with strong interests in economic theory, public policy, inequality, applied econometrics, and the intersection between quantitative analysis and real-world problems.
+I'm **Victor Alves**, a Brazilian passionate about applying rigorous statistical and econometric techniques to real-world problems.
 
-I completed my undergraduate studies with a full scholarship at a top institution, and I am currently preparing for graduate-level research in economics. My goal is to produce work that bridges rigorous economic modeling with questions relevant to social welfare, institutions, and development.
+I hold a Bachelor's degree in Economics from Insper, one of Brazil's top institutions, where I graduated **magna cum laude** with a full scholarship. I am currently a PhD candidate in Economics at Insper, with research interests centered on applied microeconomics.
 
-Beyond economics, I am deeply interested in academic communication, teaching, and the democratization of knowledge through high-quality study materials.
+Beyond research, I am deeply committed to academic communication, effective teaching, and the democratization of knowledge — particularly through creating clear, high-quality educational resources that make sophisticated concepts accessible to wider audiences.
