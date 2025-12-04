@@ -14,7 +14,7 @@ You can download the full academic CV here:
 
 - **Ph.D. in Economics** (candidate)  
   Insper Instituto de Ensino e Pesquisa — São Paulo, Brazil  
-  Fall 2026 – 2030 (expected)
+  2026 – 2030 (expected)
 
 ## Professional Experience
 
@@ -29,10 +29,6 @@ You can download the full academic CV here:
 - **Research Assistant**  
   Insper – J-PAL Latin America & Caribbean — São Paulo, Brazil  
   Jun 2022 – Jun 2023
-
-- **Economics Research Winter Intern**  
-  Morgan Stanley — São Paulo, Brazil  
-  Dec 2022 – Feb 2023
 
 ## Scholarships and Awards
 
