@@ -36,7 +36,7 @@ Welcome to my academic page.
     url = "mailto:victorma1@al.insper.edu.br"
   [[params.socialIcons]]
   name = "lattes"
-  image = "images/lattes.png"
+  image = "images/lattes.png"   # Coloque o logo do Lattes em 'static/images/lattes.png'
   url = "http://lattes.cnpq.br/9390800406342758"
   [[params.socialIcons]]
     name = "github"
