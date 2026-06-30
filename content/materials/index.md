@@ -36,3 +36,12 @@ They were used throughout the trimester and cover the core theoretical foundatio
 
 {{< /collapse >}}
 
+{{< collapse title="Microeconomics I — PhD Personal Notes (English)" >}}
+
+These are my personal study notes from the Microeconomics I course, taught by Professor Rodrigo Soares at Insper.  
+They were used throughout the trimester and cover the core theoretical foundations of the course.
+
+- [Microeconomics I — PhD Personal Notes (2026-06)](/files/micro_i_notes.pdf)
+
+{{< /collapse >}}
+
