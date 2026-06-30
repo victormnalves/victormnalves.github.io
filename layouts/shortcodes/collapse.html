@@ -1,0 +1,11 @@
+<!-- layouts/shortcodes/collapse.html -->
+{{- $title := .Get "title" | default "Click to expand" -}}
+{{- $open := .Get "open" | default false -}}
+<details{{ if eq $open "true" }} open{{ end }} style="margin: 1em 0; padding: 0.5em 1em; border: 1px solid #ddd; border-radius: 6px; background: #f9f9f9;">
+  <summary style="font-weight: bold; cursor: pointer; font-size: 1.1em; color: #0056b3;">
+    {{ $title | markdownify | safeHTML }}
+  </summary>
+  <div style="padding: 0.5em 0 0 1em; border-left: 3px solid #e0e0e0; margin-top: 0.5em; padding-left: 1em;">
+    {{ .Inner | markdownify }}
+  </div>
+</details>
