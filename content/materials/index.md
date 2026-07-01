@@ -18,6 +18,15 @@ For problem sets, solutions, or reference books, feel free to reach out.
 
 {{< /collapse >}}
 
+{{< collapse title="Mathematics — PhD Personal Notes (English)" >}}
+
+These are my personal study notes from the Mathematics course, taught by Professor Eduardo Faingold at Insper.  
+They were used throughout the trimester and cover the core theoretical foundations of the course.
+
+- [Mathematics — PhD Personal Notes (2026-04)](/files/mathematics_notes.pdf)
+
+{{< /collapse >}}
+
 {{< collapse title="Statistics — PhD Personal Notes (English)" >}}
 
 These are my personal study notes from the Statistics course, taught by Professor Rogerio Santarrosa at Insper.  
