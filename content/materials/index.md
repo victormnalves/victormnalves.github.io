@@ -36,7 +36,7 @@ They were used throughout the trimester and cover the core theoretical foundatio
 
 {{< /collapse >}}
 
-{{< collapse title="Econometrics — PhD Personal Notes" >}}
+{{< collapse title="Econometrics — PhD Personal Notes (English)" >}}
 
 These are my personal study notes from the PhD Econometrics courses. The first part was taught by Professor Sergio Firpo at Insper, and the second by Professor Naercio Menezes Filho.
 
@@ -55,7 +55,7 @@ They were used throughout the trimester and cover the core theoretical foundatio
 
 {{< /collapse >}}
 
-{{< collapse title="Microeconomics I — PhD Personal Notes (English)" >}}
+{{< collapse title="Microeconomics II — PhD Personal Notes (English)" >}}
 
 These are my personal study notes from the Microeconomics II course, taught by Professor Jose Heleno Faro at Insper.  
 They were used throughout the trimester and cover the core theoretical foundations of the course.
@@ -63,4 +63,3 @@ They were used throughout the trimester and cover the core theoretical foundatio
 - [Microeconomics II — PhD Personal Notes (2026-10)](/files/micro_ii_notes.pdf)
 
 {{< /collapse >}}
-
